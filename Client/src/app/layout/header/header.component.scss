@@ -1,0 +1,42 @@
+@import '../../styles/colours.scss';
+
+.app-header {
+    width:100%;
+    background:$gulf-stream;
+    padding:10px 15px;
+    height:60px;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.app-title {
+    color:$flitter;
+    margin:0;
+    padding:0;
+    height:40px;
+}
+
+.menu-button {
+    height:60px;
+    width:60px;
+    position:fixed;
+    top:0;
+    right:10px;
+    background:$gulf-stream;
+    border:0;
+    padding:0 18px;
+    transition:background-color 0.3s ease-in;
+
+    &:hover {
+        background:darken($gulf-stream, 10%);
+        cursor:pointer;
+    }
+}
+
+.menu-button-bar {
+    width:24px;
+    height:2px;
+    margin:5px 0 5px;
+    background:$flitter;
+}

@@ -7,5 +7,4 @@ import { AppSettings } from './core/app-settings';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = AppSettings.appName;
 }
