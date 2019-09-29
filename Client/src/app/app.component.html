@@ -1,5 +1,17 @@
 <header class="app-header">
-    <h1>{{ title }}</h1>
+    <h1 class="app-title">{{ title | lowercase }}</h1>
 </header>
+
+<div class="content-wrapper">
+    <p class="emphasised-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue ornare purus eu tincidunt.</p>
+    <div class="button-panel">
+        <button class="primary-button" type="button">Go</button>
+        <button class="warning-button" type="button">Oops!</button>
+    </div>
+    
+</div>
+
+
 
 <router-outlet></router-outlet>

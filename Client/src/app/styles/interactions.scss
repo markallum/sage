@@ -1,0 +1,39 @@
+.button-panel {
+    margin:10px 0 20px 0;
+
+    >button {
+        margin-right:15px;
+    }
+}
+
+.button-core {
+    font-size:20px;
+    border:0;
+    padding:8px 12px;
+    border-radius:5px;
+    transition:background-color 0.3s ease-in;
+
+    &:hover {
+        cursor:pointer;
+    }
+}
+
+.primary-button {
+    @extend .button-core;
+    background:$gulf-stream;
+    color:$flitter;   
+
+    &:hover {
+        background:darken($gulf-stream, 10%);
+    }
+}
+
+.warning-button {
+    @extend .button-core;
+    background:$warning;
+    color:$flitter;   
+
+    &:hover {
+        background:darken($warning, 10%);
+    }
+}

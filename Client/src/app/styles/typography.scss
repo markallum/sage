@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+body {
+    font-family:'Open Sans', Helvetica, sans-serif;
+    color:$dove-gray;
+}
+
 h1 {
-    color:$feldgrau;
+    font-size:24px;
+}
+
+p {
+    margin:10px 0 20px 0;
+}
+
+.emphasised-text {
+    font-size:1.3rem;
 }
