@@ -28,6 +28,16 @@
     }
 }
 
+.secondary-button {
+    @extend .button-core;
+    background:lighten($dove-grey, 15%);
+    color:$flitter;   
+
+    &:hover {
+        background:lighten($dove-grey, 5%);
+    }
+}
+
 .warning-button {
     @extend .button-core;
     background:$warning;

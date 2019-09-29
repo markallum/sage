@@ -2,11 +2,21 @@
 
 body {
     font-family:'Open Sans', Helvetica, sans-serif;
-    color:$dove-gray;
+    color:$dove-grey;
 }
 
 h1 {
     font-size:24px;
+}
+
+h2 {
+    font-weight:400;
+    margin:10px 0 20px 0;
+}
+
+h3 {
+    font-size:22px;
+    margin:10px 0 20px 0;
 }
 
 p {
