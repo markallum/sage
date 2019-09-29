@@ -1,21 +1,28 @@
 <header class="app-header">
-    <h1 class="app-title">{{ title | lowercase }}</h1>
-    <button class="menu-button" type="button"></button>
+  <h1 class="app-title">{{ title | lowercase }}</h1>
+  <button class="menu-button" type="button">
+    <div class="menu-button-bar"></div>
+    <div class="menu-button-bar"></div>
+    <div class="menu-button-bar"></div>
+  </button>
 </header>
 
-<div class="content-wrapper">
+<div class="app-wrapper">
+  <div class="content-wrapper">
     <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
     <p>Curabitur commodo, ligula ac vulputate eleifend, mi augu.</p>
     <h3>Justo faucibus</h3>
-    <p>Aliquam luctus lectus vel odio faucibus vestibulum. Integer ultrices libero risus, sed ultricies lectus facilisis sed. Nunc est turpis, tempus sed blandit non, sagittis vel urna.</p>
+    <p>
+      Aliquam luctus lectus vel odio faucibus vestibulum. Integer ultrices
+      libero risus, sed ultricies lectus facilisis sed. Nunc est turpis, tempus
+      sed blandit non, sagittis vel urna.
+    </p>
     <div class="button-panel">
-        <button class="primary-button" type="button">Go</button>
-        <button class="secondary-button" type="button">Cancel</button>
-        <button class="warning-button" type="button">Oops!</button>
+      <button class="primary-button" type="button">Go</button>
+      <button class="secondary-button" type="button">Cancel</button>
+      <button class="warning-button" type="button">Oops!</button>
     </div>
-    
+  </div>
+
+  <router-outlet></router-outlet>
 </div>
-
-
-
-<router-outlet></router-outlet>
