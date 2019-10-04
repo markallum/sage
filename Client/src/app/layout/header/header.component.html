@@ -1,8 +1,28 @@
 <header class="app-header">
   <h1 class="app-title">{{ title | lowercase }}</h1>
-  <button class="menu-button" type="button">
+  <button class="menu-button" type="button" (click)="toggleMenu()">
     <div class="menu-button-bar"></div>
     <div class="menu-button-bar"></div>
     <div class="menu-button-bar"></div>
   </button>
 </header>
+
+<nav *ngIf="menuVisible">
+  <ul>
+    <li>
+      <a href="#">
+        Recipes
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        Cook
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        Preferences
+      </a>
+    </li>
+  </ul>
+</nav>
