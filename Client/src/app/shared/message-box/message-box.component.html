@@ -1,4 +1,8 @@
-<div class="message-box-wrapper">
+<div [ngClass]="{
+  'message-error': messageTypes.Info === messageType,
+  'message-success': messageTypes.Success === messageType,
+  'message-warning': messageTypes.Warning === messageType
+}">
   <h4>Message Title</h4>
   <p>Some message content here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus, erat nec ultrices placerat.</p>
 </div>

@@ -1,22 +1,25 @@
 @import '../../styles/colours.scss';
 
-.message-box-wrapper {
+.message-box {
     border:1px solid;
     border-bottom:3px solid;
     padding:0 7px;
 }
 
-.info {
+.message-info {
+    @extend .message-box;
     border-color:$info;
     color:$info;
 }
 
-.success {
+.message-success {
+    @extend .message-box;
     border-color:$success;
     color:$success;
 }
 
-.warning {
+.message-warning {
+    @extend .message-box;
     border-color:$warning;
     color:$warning;
 }

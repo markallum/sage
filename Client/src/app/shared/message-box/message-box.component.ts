@@ -8,6 +8,7 @@ import { MessageType } from './message-type';
 })
 export class MessageBoxComponent implements OnInit {
   @Input() messageType: MessageType;
+  messageTypes = MessageType;
   constructor() { }
 
   ngOnInit() {
