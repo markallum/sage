@@ -5,6 +5,9 @@ $flitter:#E7EAF1;
 $platinum:#E8E7E2;
 $dove-grey:#737373;
 
-$warning:#E9896D;
-$success: #48a391;
-$info:#5748a3;
+$warning-background:#E9896D;
+$warning-foreground:#faf3dc;
+$success-background: #48a391;
+$success-foreground:$flitter;
+$info-background:#3090b0;
+$info-foreground:$flitter;

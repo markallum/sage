@@ -1,25 +1,34 @@
 @import '../../styles/colours.scss';
 
+h4 {
+    font-weight:400;
+    font-size:1.4rem;
+    margin:0px 0px 5px 0px;
+}
+
+p {
+    margin-bottom:0;
+}
+
 .message-box {
-    border:1px solid;
-    border-bottom:3px solid;
-    padding:0 7px;
+    padding:13px;
+    border-radius:5px;
 }
 
 .message-info {
     @extend .message-box;
-    border-color:$info;
-    color:$info;
+    background:$info-background;
+    color:$info-foreground;
 }
 
 .message-success {
     @extend .message-box;
-    border-color:$success;
-    color:$success;
+    background:$success-background;
+    color:$success-foreground;
 }
 
 .message-warning {
     @extend .message-box;
-    border-color:$warning;
-    color:$warning;
+    background:$warning-background;
+    color:$warning-foreground;
 }

@@ -40,10 +40,10 @@
 
 .warning-button {
     @extend .button-core;
-    background:$warning;
-    color:$flitter;   
+    background:$warning-background;
+    color:$warning-foreground;   
 
     &:hover {
-        background:darken($warning, 10%);
+        background:darken($warning-background, 10%);
     }
 }
