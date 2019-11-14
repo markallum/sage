@@ -1,3 +1,5 @@
+import { Ingredient } from './ingredient';
+
 export class Recipe {
     title: string;
     dateCreated: string;
@@ -6,5 +8,5 @@ export class Recipe {
     prepTimeMinutes: number;
     cookTimeMinutes: number;
     method: string;
-    ingredients: string[];
+    ingredients: Ingredient[];
 }
